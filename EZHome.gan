@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-10-08" view-index="0" gantt-divider-location="638" resource-divider-location="300" version="2.8.1" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="360" order="0"/>
+        <field id="tpd4" name="Begin date" width="130" order="1"/>
+        <field id="tpd5" name="End date" width="144" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Week 4" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true">
+            <task id="5" name="Finalize on team members" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true"/>
+            <task id="15" name="Distribute work amoung team members" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true"/>
+            <task id="20" name="Create mockup and requirements analysis" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true"/>
+            <task id="24" name="Project plan and gantt chart" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="25" name="Design documents and architecture diagrams" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true"/>
+        <task id="27" name="Week 5-7" meeting="false" start="2017-10-09" duration="13" complete="0" expand="true">
+            <task id="33" name="Coding for milestone 2" meeting="false" start="2017-10-09" duration="13" complete="0" expand="true"/>
+            <task id="35" name="Class Presentation" meeting="false" start="2017-10-25" duration="1" complete="0" expand="true"/>
+            <task id="36" name="Prepare for class preparation" meeting="false" start="2017-10-16" duration="7" complete="0" expand="true"/>
+            <task id="37" name="Draft Test Plan" meeting="false" start="2017-10-16" duration="8" complete="0" expand="true"/>
+            <task id="38" name="Commit Source Code into Git Repository" meeting="false" start="2017-10-16" duration="8" complete="0" expand="true"/>
+        </task>
+        <task id="39" name="Week 8-10" meeting="false" start="2017-10-30" duration="12" complete="0" expand="true">
+            <task id="44" name="Prepare a working beta release" meeting="false" start="2017-10-30" duration="12" complete="0" expand="true"/>
+            <task id="46" name="Demonstrate the use of Git for the source code control" meeting="false" start="2017-10-30" duration="12" complete="0" expand="true"/>
+            <task id="51" name="Make app work on simulator and device" meeting="false" start="2017-10-30" duration="12" complete="0" expand="true"/>
+            <task id="48" name="Connect to server, fetch, and display" meeting="false" start="2017-11-14" duration="1" complete="0" expand="true"/>
+            <task id="49" name="Junit Testing" meeting="false" start="2017-11-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="50" name="Week 11-13" meeting="false" start="2017-11-20" duration="12" complete="0" expand="true">
+            <task id="53" name="Coding; Unit and Integration cases" meeting="false" start="2017-11-20" duration="12" complete="0" expand="true"/>
+            <task id="57" name="Store Data on the cloud and on device" meeting="false" start="2017-11-20" duration="12" complete="0" expand="true"/>
+            <task id="58" name="Prepare and demo the app on a tablet and on smartphone" color="#8cb6ce" meeting="false" start="2017-11-27" duration="7" complete="0" expand="true"/>
+            <task id="55" name="Design the support of Portrait and Landscape" meeting="false" start="2017-11-20" duration="12" complete="0" expand="true"/>
+        </task>
+        <task id="59" name="Week 14-15" meeting="false" start="2017-12-11" duration="7" complete="0" expand="true">
+            <task id="61" name="Work on the final version" meeting="false" start="2017-12-11" duration="7" complete="0" expand="true"/>
+            <task id="63" name="Debug" meeting="false" start="2017-12-11" duration="7" complete="0" expand="true"/>
+            <task id="65" name="Complete Test Plan" meeting="false" start="2017-12-11" duration="7" complete="0" expand="true"/>
+            <task id="67" name="Submit App documents, test plan, source code, ...etc" meeting="false" start="2017-12-19" duration="1" complete="0" expand="true"/>
+            <task id="68" name="Integration Testing" meeting="false" start="2017-12-19" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="69" name="Milestone 1" color="#8cb6ce" meeting="true" start="2017-10-05" duration="0" complete="0" expand="true"/>
+        <task id="71" name="Milestone 2" color="#8cb6ce" meeting="true" start="2017-10-25" duration="0" complete="0" expand="true"/>
+        <task id="72" name="Milestone 3" color="#8cb6ce" meeting="true" start="2017-11-14" duration="0" complete="0" expand="true"/>
+        <task id="75" name="Milestone 4" color="#8cb6ce" meeting="true" start="2017-12-05" duration="0" complete="0" expand="true"/>
+        <task id="77" name="Milestone 5" color="#8cb6ce" meeting="true" start="2017-12-19" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
